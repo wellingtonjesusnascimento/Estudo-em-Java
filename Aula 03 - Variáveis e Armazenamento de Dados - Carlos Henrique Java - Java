@@ -1,0 +1,26 @@
+package Aula03;
+//Variáveis e armazenamento de dados
+public class Aula03 {
+
+	public static void main(String[] args) {
+		//Variável: tipo nome = conteúdo;
+		String meuNome = "Wellington Nascimento";
+		int idade = 20;
+		double altura = 1.75;
+		char sexo = 'M';
+		//boolean só armazena dois tipos de dados: true or false.
+		boolean solteiro = true;
+		boolean casado = false;
+        String Anos = "anos.";
+        
+        //Essa variável posicionada nesse local substitui a variável anterior meuNome.
+        //Com a adiçăo do símbolo '+' antes do sinal de '=' o conteúdo da variável anterior se junto com a variável recente.
+        meuNome += " ou Wellington Jesus do Nascimento";
+        
+        System.out.print(idade);
+        System.out.print(casado);
+        System.out.print(solteiro);
+        System.out.print("Meu nome é: "+meuNome+" e minha idade é: "+idade+" "+Anos);
+	}
+
+}
