@@ -1,0 +1,33 @@
+public class Aula06 //Incremento e Decremento
+{
+ public static void main (String [] args)
+ {
+	 int número = 1;
+	 
+	 //Incremento, neste caso soma +1.
+	 //Nesse exemplo o valor só incrementado na próxima linha, no caso na linha 'System.out.println' (variável de impressão).
+	 //número++;
+	 
+	 //Incremento de variável na próxima linha.
+	 //System.out.println(número);
+	 //Neste caso a variável também só é incrementada na próxima linha de execução.
+	 //System.out.println(número++);
+	 //Incremento na próxima linha de execução.
+	 //System.out.println(número);
+	 //Resolução para o incremento da variável na mesma linha.
+	 //Neste caso primeiramente ela é incrementada, e depois é imprimido o valor correspondente a variável int + o incremento solicitado anteriormente.
+	 //System.out.println(++número);
+	 
+	 //Este aqui é o decremento.
+	 //A variável int é decrementada também na próxima linha, no caso na de impressão ('System.out.println').
+	 //número--;
+	 
+	 //System.out.println(número);
+	 //Exemplo de decremento na próxima linha, porém utilizando o decremento na linha de impressão a frente da variável int número.
+	 //Neste caso decrementará na próxima linha.
+	 //System.out.println(número--);
+	 //System.out.println(número);
+	 //A resolução para a decrementação na mesma linha é escrever o decremento na linha de impressão antes da variável int número.
+	 System.out.println(--número);
+ }
+}
