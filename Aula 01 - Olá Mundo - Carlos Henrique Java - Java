@@ -1,0 +1,11 @@
+package Aula01;
+
+public class Aula01 {
+
+	public static void main(String[] args) {
+	
+	//Comando de impressăo do Java
+    System.out.println("Olá Mundo");
+	}
+
+}
