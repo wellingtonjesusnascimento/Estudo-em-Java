@@ -1,0 +1,37 @@
+package aula05;
+
+public class Aula05 
+{
+ public static void main (String[] args)
+ {
+ //A variável boolean sóresulta na expressão como verdadeira ou falsa.
+ //Tipos de comparadores: == (igualdade), != (diferença), > (maior), >= (maior ou igual), < (menor), <= (menor ou igual).
+ boolean resultado = 10==10;
+ boolean resultado02 = 10==1;
+ boolean resultado03 = 10!=1;
+ boolean resultado04 = 10!=10;
+ boolean resultado05 = 10>10;
+ boolean resultado06 = 10>1;
+ boolean resultado07 = 10>=1;
+ boolean resultado08 = 10>=10;
+ boolean resultado09 = 10>=11;
+ boolean resultado10 = 10<11;
+ boolean resultado11 = 10<1;
+ boolean resultado12 = 10<=1;
+ boolean resultado13 = 10<=10;
+ 
+ System.out.println(resultado);
+ System.out.println(resultado02);
+ System.out.println(resultado03);
+ System.out.println(resultado04);
+ System.out.println(resultado05);
+ System.out.println(resultado06);
+ System.out.println(resultado07);
+ System.out.println(resultado08);
+ System.out.println(resultado09);
+ System.out.println(resultado10);
+ System.out.println(resultado11);
+ System.out.println(resultado12);
+ System.out.println(resultado13);
+ }
+}
