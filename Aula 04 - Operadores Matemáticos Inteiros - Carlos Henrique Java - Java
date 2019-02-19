@@ -1,0 +1,24 @@
+package Aula04;
+//Operadores Matemáticos inteiros
+public class Aula04 {
+
+	public static void main(String[] args) {
+		int resultado = 0;
+		int resultado01 = 10+3;
+		int resultado02 = 10-3;
+		int resultado03 = 10*3;
+		int resultado04 = 10/3;
+		int resultado05 = 10%3;
+		
+		
+		System.out.print(resultado);
+		System.out.print(resultado01);
+		System.out.print(resultado02);
+		System.out.print(resultado03);
+		System.out.print(resultado04);
+		System.out.print(resultado05);
+		
+
+	}
+
+}
